@@ -21,7 +21,7 @@ links out** — the 映像 sibling of 瓦版's printed sheet. It is a **medium, 
 - **U3 anti-deepfake is the highest-risk gate** — never emit a path that depicts a named
   real person photoreally or clones a voice. Neutral synthetic narrator only.
 - Tests are standalone-runnable with
-  `clojure -M -e '(load-file "run_tests.cljk")'`. Keep canonical fixtures in EDN; JSON and
+  `kbb -M -e '(load-file "run_tests.cljk")'`. Keep canonical fixtures in EDN; JSON and
   JSON-LD belong under `wire/` only.
 
 ## Roadmap
