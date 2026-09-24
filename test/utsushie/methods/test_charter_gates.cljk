@@ -16,7 +16,7 @@
     G11 medium-not-source — kind ∈ {mirror, actor-event}; 'original' is not representable
 
   It weakens no gate; it asserts them. The render() live leg stays R0-gated (G8) elsewhere."
-  (:require [clojure.test :refer [deftest is run-tests]]
+  (:require [kotoba.test :refer [deftest is run-tests]]
             [clojure.edn :as edn]))
 
 #?(:clj

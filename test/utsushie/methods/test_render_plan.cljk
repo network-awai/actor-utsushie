@@ -7,7 +7,7 @@
   to the excerpt (U2/G4), all gate witnesses false, refusals for :original kind (G11),
   oversized excerpt (U2/G4), person depiction + voice clone (U3 anti-deepfake), a mirror
   without a link-out (G4), and the R0 render guard (G8 + Murakumo)."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [utsushie.methods.render-plan :as rp]))
 
 (def ART {"articleId" "a1" "kind" "mirror" "section" "国際"

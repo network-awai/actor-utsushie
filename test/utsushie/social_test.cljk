@@ -1,5 +1,5 @@
 (ns utsushie.social-test
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [utsushie.cells.social-post.state-machine :as cell]
             [utsushie.methods.social :as social]))
 
